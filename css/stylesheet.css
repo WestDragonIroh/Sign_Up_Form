@@ -1,0 +1,162 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 40vw;
+  background-image: url(../assets/stromtropper.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f8fa;
+}
+
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.logo-container img {
+  height: 6rem;
+  width: auto;
+}
+
+.logo-container h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: "Cinzel Decorative", cursive;
+  margin: auto 0.5rem;
+}
+
+.credits {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.credits a {
+  color: #ffffff;
+  margin: 0 1ch;
+}
+
+.top {
+  word-wrap: break-word;
+  padding: 2rem;
+  font-size: 1.3rem;
+  margin-right: 30%;
+  font-weight: 600;
+  min-height: 15vh;
+}
+
+.middle {
+  background-color: #ffffff;
+  padding: 1rem 2rem 1.5rem 2rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.middle h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+}
+
+.input-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+.input-flex label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.input-flex input {
+  border: 1px solid #e5e7eb;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 185px;
+}
+
+.input-flex input:focus {
+  border: 1px solid #3964dc;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  outline: none;
+}
+
+.input-flex input.password-input {
+  border: 1px solid #c13838;
+}
+
+.error {
+  color: #c13838;
+  width: 185px;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.bottom {
+  padding: 2rem;
+  height: 15vh;
+}
+
+button {
+  background-color: #690f1b;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding: 10px 40px 12px 40px;
+  font-size: 0.7rem;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.log-in {
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.log-in a {
+  color: #690f1b;
+}

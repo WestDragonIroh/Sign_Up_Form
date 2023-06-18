@@ -1,0 +1,116 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" /> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>Odin Force</title>
+
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="left">
+        <div class="logo-container">
+          <!-- <img
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+            alt="Odin Logo"
+            srcset="" /> -->
+          <h1>ODIN</h1>
+        </div>
+        <!-- <div class="credits">
+          Photo by
+          <a
+            href="https://unsplash.com/@dogflirt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Anthony Duran
+          </a>
+          on
+          <a
+            href="https://unsplash.com/photos/ghziyUe5eI8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </div> -->
+      </div>
+
+      <div class="right">
+        <div class="top">
+          This is not a real online service!
+          <br />
+          The fear of losing power is a weakness of both the Jedi and the Sith.
+          The dark side of the Force is a pathway to many abilities some
+          consider to be unnatural.
+          <br /><br />
+          There is no civility, only politics.
+        </div>
+
+        <div class="middle">
+          <h2>Join Imperial Army of the Galactic Empire today!</h2>
+
+          <form id="form">
+            <div class="form-row">
+              <div class="input-flex">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" required />
+              </div>
+
+              <div class="input-flex">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-flex">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" required />
+              </div>
+
+              <div class="input-flex">
+                <label for="tel">PHONE NUMBER</label>
+                <input type="tel" id="tel" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-flex">
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="password-input"
+                  required />
+
+                <p id="pass_strength" class="error">
+                  *Password must include at least one uppercase letter, number &
+                  special character
+                </p>
+              </div>
+
+              <div class="input-flex">
+                <label for="password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="password_confirm"
+                  class="password-input"
+                  required />
+                <p id="pass_match" class="error"></p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="bottom">
+          <button type="submit" class="create-account" form="form">
+            Create Account
+          </button>
+
+          <div class="log-in">
+            Already have an account? <a href="#">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
